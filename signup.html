@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <title>Barter Trade Sign up</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="sign-intro">
+            <h2>Sign up</h2>
+            <span>Welcome, Let the trade begins</span>
+         </div>
+         <form>
+            <div class="name-box info-box">
+               <label for="name">Name</label>
+               <input type="text" id="name" name="name" required>
+            </div>
+            <div class="email-box info-box">
+               <label for="email">Email</label>
+               <input type="email" id="email" required>
+            </div>
+            <div class="password-box info-box">
+               <label for="pass">Password</label>
+               <input type="password" id="pass" name="password" minlength="8" required>
+               <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+            </div>
+            <div class="terms-box info-box">
+              <input type="checkbox" id="terms" name="terms">
+              <label for="terms">I agree to the Terms and Privacy Policy </label>
+            </div>
+            <input type="submit" value="Sign in">
+         </form>
+         <p>Already have an account? <a class="register" id="sign-up" href="signin.html">Sign in</a></p>
+      </div>
+      
+      <script src="script.js"></script>
+   </body>
+</html>
